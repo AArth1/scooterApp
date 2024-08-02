@@ -40,14 +40,20 @@ function RideProgress() {
         container: 'map',
         style: 'mapbox://styles/mapbox/dark-v11',
         center: userLocation,
-        zoom: 12,
+        zoom: 20,
       });
 
-      new mapboxgl.Marker()
+      const startel = document.createElement('div');
+      startel.className = 'start-user-marker';
+  
+      const endel = document.createElement('div'); 
+      endel.className = 'end-user-marker';
+  
+      new mapboxgl.Marker(startel)
         .setLngLat(startLocation)
         .addTo(map);
-
-      new mapboxgl.Marker({ color: 'red' })
+  
+      new mapboxgl.Marker(endel)
         .setLngLat(userLocation)
         .addTo(map);
 
@@ -73,7 +79,7 @@ function RideProgress() {
             'line-cap': 'round',
           },
           paint: {
-            'line-color': '#FFA500', // Changed to orange
+            'line-color': '#bcacf9', // Changed to orange
             'line-width': 4,
           },
         });

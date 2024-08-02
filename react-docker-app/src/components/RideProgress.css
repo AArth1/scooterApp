@@ -34,3 +34,23 @@ body {
   height: 10%;
   box-sizing: border-box;
 }
+
+.start-user-marker {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #421c86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-user-marker{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #7e3fd4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
