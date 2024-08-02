@@ -1,0 +1,54 @@
+{
+  "UserAuthentication": [
+    {
+      "UserID": 1,
+      "Username": "jdoe",
+      "Password": "password123",
+      "FirstName": "John",
+      "LastName": "Doe",
+      "Email": "jdoe@example.com",
+      "CreatedAt": "2023-10-01T12:00:00Z",
+      "UpdatedAt": "2023-10-01T12:00:00Z"
+    },
+    {
+      "UserID": 2,
+      "Username": "asmith",
+      "Password": "password456",
+      "FirstName": "Alice",
+      "LastName": "Smith",
+      "Email": "asmith@example.com",
+      "CreatedAt": "2023-10-02T12:00:00Z",
+      "UpdatedAt": "2023-10-02T12:00:00Z"
+    },
+    {
+      "UserID": 3,
+      "Username": "bwilliams",
+      "Password": "password789",
+      "FirstName": "Bob",
+      "LastName": "Williams",
+      "Email": "bwilliams@example.com",
+      "CreatedAt": "2023-10-03T12:00:00Z",
+      "UpdatedAt": "2023-10-03T12:00:00Z"
+    },
+    {
+      "UserID": 4,
+      "Username": "cjones",
+      "Password": "password101",
+      "FirstName": "Carol",
+      "LastName": "Jones",
+      "Email": "cjones@example.com",
+      "CreatedAt": "2023-10-04T12:00:00Z",
+      "UpdatedAt": "2023-10-04T12:00:00Z"
+    },
+    {
+      "UserID": 5,
+      "Username": "djohnson",
+      "Password": "password202",
+      "FirstName": "David",
+      "LastName": "Johnson",
+      "Email": "djohnson@example.com",
+      "CreatedAt": "2023-10-05T12:00:00Z",
+      "UpdatedAt": "2023-10-05T12:00:00Z"
+    }
+  ]
+}

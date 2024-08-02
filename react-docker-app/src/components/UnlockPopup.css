@@ -1,9 +1,28 @@
 .unlock-popup {
   position: relative;
   padding: 20px;
-  background-color: white;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #FFF;
+  border: 1px solid #7034E4;
+  box-shadow: 0 2px 10px #bcacf9;
+  z-index: 1000;
+  align-items: center;
+  text-align: center;
+
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #7034E4;
+  padding: 50px;
+  border-radius: 8px;
+  box-sizing: border-box; /* Ensures padding is included in total width/height */
+  max-width: 650px; /* Optional: set a max-width */
+  width: 100%; /* Ensures it fits the content */
+  height: 650px; /* Allows the height to adjust based on content */
 }
 
 .close-button {
@@ -14,6 +33,7 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
+  z-index:1000;
 }
 
   

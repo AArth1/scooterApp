@@ -1,0 +1,92 @@
+[
+  {
+    "ScooterID": 1,
+    "ScooterCode": "SC001",
+    "Model": "Model X",
+    "CurrentLocation": {
+      "latitude": 47.643543,
+      "longitude": -122.110821
+    },
+    "Battery": 95,
+    "IsAvailable": true,
+    "BasePrice": 1.00,
+    "PricePerMinute": 0.15,
+    "Range": 20.00,
+    "MaxSpeed": 15.00,
+    "LastMaintenanceDate": "2023-01-15T10:00:00Z",
+    "CreatedAt": "2023-01-01T10:00:00Z",
+    "UpdatedAt": "2023-01-10T10:00:00Z"
+  },
+  {
+    "ScooterID": 2,
+    "ScooterCode": "SC002",
+    "Model": "Model Y",
+    "CurrentLocation": {
+      "latitude": 47.644543,
+      "longitude": -122.111821
+    },
+    "Battery": 80,
+    "IsAvailable": true,
+    "BasePrice": 1.50,
+    "PricePerMinute": 0.20,
+    "Range": 15.00,
+    "MaxSpeed": 12.00,
+    "LastMaintenanceDate": "2023-02-01T10:00:00Z",
+    "CreatedAt": "2023-01-05T10:00:00Z",
+    "UpdatedAt": "2023-01-20T10:00:00Z"
+  },
+  {
+    "ScooterID": 3,
+    "ScooterCode": "SC003",
+    "Model": "Model Z",
+    "CurrentLocation": {
+      "latitude": 47.645543,
+      "longitude": -122.112821
+    },
+    "Battery": 70,
+    "IsAvailable": true,
+    "BasePrice": 1.20,
+    "PricePerMinute": 0.18,
+    "Range": 18.00,
+    "MaxSpeed": 14.00,
+    "LastMaintenanceDate": "2023-03-01T10:00:00Z",
+    "CreatedAt": "2023-02-01T10:00:00Z",
+    "UpdatedAt": "2023-02-10T10:00:00Z"
+  },
+  {
+    "ScooterID": 4,
+    "ScooterCode": "SC004",
+    "Model": "Model A",
+    "CurrentLocation": {
+      "latitude": 47.646543,
+      "longitude": -122.113821
+    },
+    "Battery": 85,
+    "IsAvailable": true,
+    "BasePrice": 1.30,
+    "PricePerMinute": 0.17,
+    "Range": 22.00,
+    "MaxSpeed": 16.00,
+    "LastMaintenanceDate": "2023-04-01T10:00:00Z",
+    "CreatedAt": "2023-03-01T10:00:00Z",
+    "UpdatedAt": "2023-03-10T10:00:00Z"
+  },
+  {
+    "ScooterID": 5,
+    "ScooterCode": "SC005",
+    "Model": "Model B",
+    "CurrentLocation": {
+      "latitude": 47.647543,
+      "longitude": -122.114821
+    },
+    "Battery": 90,
+    "IsAvailable": true,
+    "BasePrice": 1.40,
+    "PricePerMinute": 0.19,
+    "Range": 25.00,
+    "MaxSpeed": 17.00,
+    "LastMaintenanceDate": "2023-05-01T10:00:00Z",
+    "CreatedAt": "2023-04-01T10:00:00Z",
+    "UpdatedAt": "2023-04-10T10:00:00Z"
+  }
+]

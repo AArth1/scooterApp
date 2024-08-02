@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Rubik:wght@400;600&family=Varela+Round&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@600&display=swap');
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #F7F7F7;
@@ -18,49 +18,101 @@ body {
 }
 
 h1 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   color: #FF6B6B;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 h2 {
-  font-family: 'Varela Round', sans-serif;
-  font-weight: 400;
-  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
   color: #FF6B6B;
 }
 
 button {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 18px;
   background-color: #FF6B6B;
   color: #fff;
   border: none;
-  border-radius: 25px;
-  padding: 12px 24px;
+  padding: 10px 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #ff5252;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* ... (rest of the CSS remains the same) ... */
+.scooter-map {
+  display: flex;
+}
+
+.scooter-list {
+  width: 40%;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.scooter-list div {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #4ECDC4;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scooter-list div:hover {
+  background-color: #F7F7F7;
+}
+
+.unlock-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #4ECDC4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ride-progress .ride-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #4ECDC4;
+  color: #fff;
+}
+
+.ride-overview {
+  display: flex;
+}
+
+.ride-details {
+  width: 50%;
+  padding: 20px;
+}
+
+.end-ride-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #4ECDC4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 /* Additional styles */
-.accent {
+/*.accent {
   color: #FFD93D;
-  font-family: 'Varela Round', sans-serif;
-  font-weight: 400;
 }
 
 .secondary-button {
@@ -69,4 +121,164 @@ button:hover {
 
 .secondary-button:hover {
   background-color: #45b7ae;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+.home, .register, .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #7e3fd4;
+  color: var(--White-100, #FFF);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Headline/L */
+.title {
+  font-family: 'Poppins', sans-serif;
+  
+  font-style: normal;
+  font-weight: 500;
+  line-height: 88px; /* 100% */
+  letter-spacing: -1px;
+  font-feature-settings: 'liga' off, 'clig' off;
+  margin: 0;
+
+}
+
+/* Support/Overline */
+.subheading {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'liga' off, 'clig' off;
+  
+  text-transform:uppercase;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #421c86;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bcacf9;
+}
+
+/* Body/M */
+.body-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--Primary-900, #421C86);
+  text-align: center;
+  font-feature-settings: 'liga' off, 'clig' off;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.24px;
+}
+
+.scooter-map {
+  display: flex;
+}
+
+.scooter-list {
+  width: 40%;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.scooter-list div {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scooter-list div:hover {
+  background-color: #F3f1fe;
+}
+
+.unlock-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #421c86;
+  box-shadow: 0 0 10px #bcacf9;
+}
+
+.ride-progress .ride-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #421c86;
+  color: #fff;
+}
+
+.ride-overview {
+  display: flex;
+}
+
+.ride-details {
+  width: 50%;
+  padding: 20px;
+}
+
+.end-ride-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #421C86;
+  box-shadow: 0 0 10px #bcacf9;
+}
+
+/* Additional styles */
+.accent {
+  color: #7034e4;
+}
+
+.secondary-button {
+  background-color: #7034e4;
+}
+
+.secondary-button:hover {
+  background-color: #bcacf9;
+}
+
+.input {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #421c86;
+  background-color: #F7F7F7;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 16px;
+  box-sizing: border-box;
 }

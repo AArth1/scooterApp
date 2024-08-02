@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import mapboxgl from 'mapbox-gl';
+import './RideOverview.css'; // Import the CSS file for styling
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0YWthbWEiLCJhIjoiY2x5cTR4aXYyMDBzbzJpcG43NXZvNTd5byJ9.nEGo9hPCJwE4SrmFaborZw';
 
@@ -14,12 +15,18 @@ function RideOverview() {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/navigation-night-v1',
+      style: 'mapbox://styles/mapbox/dark-v11',
       center: startLocation,
       zoom: 12,
     });
 
-    new mapboxgl.Marker()
+    const startel = document.createElement('div');
+    startel.className = 'scooter-marker';
+    const container = document.createElement('div');
+    container.className = 'scooter-marker-container';
+    container.appendChild(startel);
+
+    new mapboxgl.Marker(startel)
       .setLngLat(startLocation)
       .addTo(map);
 
@@ -61,8 +68,8 @@ function RideOverview() {
   };
 
   return (
-    <div className="ride-overview">
-      <div id="map" style={{ width: '50%', height: '100vh' }}></div>
+    <div className="ride-overview-container">
+      <div id="map" className="map-container"></div>
       <div className="ride-details">
         <h2>Ride Overview</h2>
         <p>Total Cost: ${cost}</p>
@@ -75,3 +82,4 @@ function RideOverview() {
 }
 
 export default RideOverview;
+

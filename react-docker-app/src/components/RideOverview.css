@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .ride-overview-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .map-container {
+    width: 60vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .ride-details {
+    width: 40vw;
+    height: 100vh;
+    background-color: #421c86;
+    color: #ffffff;
+    z-index: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .scooter-marker {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #7034e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scooter-marker-container {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  

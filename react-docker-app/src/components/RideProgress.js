@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import EndRidePopup from './EndRidePopup';
+import './RideProgress.css';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0YWthbWEiLCJhIjoiY2x5cTR4aXYyMDBzbzJpcG43NXZvNTd5byJ9.nEGo9hPCJwE4SrmFaborZw';
+//add scooter tracking table here. create new tracking 
 
 function RideProgress() {
   const [userLocation, setUserLocation] = useState([0, 0]);
@@ -36,7 +38,7 @@ function RideProgress() {
     if (userLocation[0] !== 0 && !mapRef.current) {
       const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/navigation-night-v1',
+        style: 'mapbox://styles/mapbox/dark-v11',
         center: userLocation,
         zoom: 12,
       });
@@ -112,13 +114,13 @@ function RideProgress() {
   };
 
   return (
-    <div className="ride-progress">
+    <div className="ride-progress-container">
       <div className="ride-header">
         <h2>Ride in Progress</h2>
         <p>Time: {timer} seconds</p>
         <button onClick={handleEndRide}>End Ride</button>
       </div>
-      <div id="map" style={{ width: '100%', height: '90vh' }}></div>
+      <div id = "map" className = "ride-progress-map" ></div>
       {showEndRidePopup && <EndRidePopup onClose={handleClosePopup} rideData={rideData} />}
     </div>
   );

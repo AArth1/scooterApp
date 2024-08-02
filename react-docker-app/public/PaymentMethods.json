@@ -1,0 +1,54 @@
+{
+    "PaymentMethods": [
+      {
+        "PaymentMethodID": 1,
+        "UserID": 1,
+        "MethodType": "Credit Card",
+        "Provider": "Visa",
+        "AccountNumber": "4111111111111111",
+        "ExpiryDate": "2024-12-31T00:00:00Z",
+        "CreatedAt": "2023-10-01T12:00:00Z",
+        "UpdatedAt": "2023-10-01T12:00:00Z"
+      },
+      {
+        "PaymentMethodID": 2,
+        "UserID": 2,
+        "MethodType": "Debit Card",
+        "Provider": "MasterCard",
+        "AccountNumber": "5500000000000004",
+        "ExpiryDate": "2025-11-30T00:00:00Z",
+        "CreatedAt": "2023-10-02T12:00:00Z",
+        "UpdatedAt": "2023-10-02T12:00:00Z"
+      },
+      {
+        "PaymentMethodID": 3,
+        "UserID": 3,
+        "MethodType": "PayPal",
+        "Provider": "PayPal",
+        "AccountNumber": "user3@paypal.com",
+        "ExpiryDate": "2026-10-31T00:00:00Z",
+        "CreatedAt": "2023-10-03T12:00:00Z",
+        "UpdatedAt": "2023-10-03T12:00:00Z"
+      },
+      {
+        "PaymentMethodID": 4,
+        "UserID": 4,
+        "MethodType": "Credit Card",
+        "Provider": "American Express",
+        "AccountNumber": "340000000000009",
+        "ExpiryDate": "2024-09-30T00:00:00Z",
+        "CreatedAt": "2023-10-04T12:00:00Z",
+        "UpdatedAt": "2023-10-04T12:00:00Z"
+      },
+      {
+        "PaymentMethodID": 5,
+        "UserID": 5,
+        "MethodType": "Bank Transfer",
+        "Provider": "Bank of America",
+        "AccountNumber": "1234567890",
+        "ExpiryDate": "2027-08-31T00:00:00Z",
+        "CreatedAt": "2023-10-05T12:00:00Z",
+        "UpdatedAt": "2023-10-05T12:00:00Z"
+      }
+    ]
+  }

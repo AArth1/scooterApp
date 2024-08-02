@@ -1,0 +1,89 @@
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #7034E4;
+    padding: 50px;
+    border-radius: 8px;
+    box-sizing: border-box; /* Ensures padding is included in total width/height */
+    max-width: 650px; /* Optional: set a max-width */
+    width: 100%; /* Ensures it fits the content */
+    height: 650px; /* Allows the height to adjust based on content */
+  }
+
+  .log-title {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 16px;
+    padding-bottom: 30px;
+  }
+
+  .input {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #421c86;
+    background-color: #F7F7F7;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  .log-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+
+  .log-button:hover {
+    background-color: #bcacf9;
+    border-color: #bcacf9;
+  }
+
+  .message {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #Fff;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 12px;
+  }
+
+  .reg-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color:transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 8px;
+  }

@@ -1,0 +1,9 @@
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/bin/Debug/ScooterDB.dacpac
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/bin/Debug/ScooterDB.dll
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/bin/Debug/ScooterDB.pdb
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/Model.xml
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/refactor.xml
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/postdeploy.sql
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/predeploy.sql
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/ScooterDB.dll
+/workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/ScooterDB.pdb

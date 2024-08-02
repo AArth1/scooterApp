@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ulW1bkkAAk4=",
+  "success": true,
+  "projectFilePath": "/workspaces/javascript-node/database/ScooterDB/ScooterDB/ScooterDB.sqlproj",
+  "expectedPackageFiles": [
+    "/home/node/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/home/node/.nuget/packages/microsoft.netframework.referenceassemblies.net46/1.0.0/microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

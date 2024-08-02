@@ -1,0 +1,11 @@
+USE ScooterDB;
+GO
+ 
+INSERT INTO <MyTable> VALUES
+ 
+ 
+INSERT INTO >MyDatabase>.<MySchema>.<MyTable> VALUES
+
+SELECT * from ScooterDB.dbo.Geofences;
+ 
+SELECT * from Library.dbo.Authors;
