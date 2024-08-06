@@ -15,7 +15,8 @@
     "MaxSpeed": 15.00,
     "LastMaintenanceDate": "2023-01-15T10:00:00Z",
     "CreatedAt": "2023-01-01T10:00:00Z",
-    "UpdatedAt": "2023-01-10T10:00:00Z"
+    "UpdatedAt": "2023-01-10T10:00:00Z",
+    "Distance": 0.5
   },
   {
     "ScooterID": 2,
@@ -33,7 +34,8 @@
     "MaxSpeed": 12.00,
     "LastMaintenanceDate": "2023-02-01T10:00:00Z",
     "CreatedAt": "2023-01-05T10:00:00Z",
-    "UpdatedAt": "2023-01-20T10:00:00Z"
+    "UpdatedAt": "2023-01-20T10:00:00Z",
+    "Distance": 1.2
   },
   {
     "ScooterID": 3,
@@ -51,7 +53,8 @@
     "MaxSpeed": 14.00,
     "LastMaintenanceDate": "2023-03-01T10:00:00Z",
     "CreatedAt": "2023-02-01T10:00:00Z",
-    "UpdatedAt": "2023-02-10T10:00:00Z"
+    "UpdatedAt": "2023-02-10T10:00:00Z",
+    "Distance": 2.1
   },
   {
     "ScooterID": 4,
@@ -69,7 +72,8 @@
     "MaxSpeed": 16.00,
     "LastMaintenanceDate": "2023-04-01T10:00:00Z",
     "CreatedAt": "2023-03-01T10:00:00Z",
-    "UpdatedAt": "2023-03-10T10:00:00Z"
+    "UpdatedAt": "2023-03-10T10:00:00Z",
+    "Distance": 3.0
   },
   {
     "ScooterID": 5,
@@ -87,6 +91,7 @@
     "MaxSpeed": 17.00,
     "LastMaintenanceDate": "2023-05-01T10:00:00Z",
     "CreatedAt": "2023-04-01T10:00:00Z",
-    "UpdatedAt": "2023-04-10T10:00:00Z"
+    "UpdatedAt": "2023-04-10T10:00:00Z",
+    "Distance": 4.2
   }
 ]
