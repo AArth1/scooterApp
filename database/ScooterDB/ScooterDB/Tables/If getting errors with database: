@@ -1,6 +1,0 @@
-If getting errors with database:
-docker ps -a (check the status of the container)
-docker stop SQL-Library (stop)
-docker start SQL-Library (restart)
-
-should also refresh window
