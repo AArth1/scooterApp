@@ -32,6 +32,7 @@ import NewScooterMap from './components/ScooterMap';
 import RideProgress from './components/RideProgress';
 import RideOverview from './components/RideOverview';
 import UserProfile from './components/UserProfile';
+//import Test from './components/ApiTest';
 import './styles.css';
 
 function App() {
@@ -50,5 +51,15 @@ function App() {
   );
 }
 
-export default App;
+  // function App() {
+  //     return (
+  //       <Router>
+  //         <Routes>
+  //           <Route path="/" element={<Test />} />
+  //         </Routes>
+  //       </Router>
+  //     );
+  //   }
+
+  export default App;
 

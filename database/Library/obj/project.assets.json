@@ -368,11 +368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/javascript-node/database/Library/Library.sqlproj",
+      "projectUniqueName": "/workspace/database/Library/Library.sqlproj",
       "projectName": "Library",
-      "projectPath": "/workspaces/javascript-node/database/Library/Library.sqlproj",
+      "projectPath": "/workspace/database/Library/Library.sqlproj",
       "packagesPath": "/home/node/.nuget/packages/",
-      "outputPath": "/workspaces/javascript-node/database/Library/obj/",
+      "outputPath": "/workspace/database/Library/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

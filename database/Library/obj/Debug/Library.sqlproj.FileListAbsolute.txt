@@ -25,3 +25,12 @@
 /workspaces/javascript-node/database/Library/obj/Debug/predeploy.sql
 /workspaces/javascript-node/database/Library/obj/Debug/Library.dll
 /workspaces/javascript-node/database/Library/obj/Debug/Library.pdb
+/workspace/database/Library/bin/Debug/Library.dacpac
+/workspace/database/Library/bin/Debug/Library.dll
+/workspace/database/Library/bin/Debug/Library.pdb
+/workspace/database/Library/obj/Debug/Model.xml
+/workspace/database/Library/obj/Debug/refactor.xml
+/workspace/database/Library/obj/Debug/postdeploy.sql
+/workspace/database/Library/obj/Debug/predeploy.sql
+/workspace/database/Library/obj/Debug/Library.dll
+/workspace/database/Library/obj/Debug/Library.pdb

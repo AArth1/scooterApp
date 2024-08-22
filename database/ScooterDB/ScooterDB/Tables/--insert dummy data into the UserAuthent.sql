@@ -14,86 +14,17 @@ select * from ScooterDB.dbo.Scooters;
 USE ScooterDB;
 GO
 
-
--- Insert dummy data into Scooters table
-INSERT INTO [ScooterDB].[dbo].[Scooters] (ScooterCode, Model, CurrentLocation, Battery, IsAvailable, BasePrice, PricePerMinute, Range, MaxSpeed, Distance, LastMaintenanceDate, CreatedAt, UpdatedAt)
+--insert dummy data into the UserManagement table
+INSERT INTO [ScooterDB].[dbo].[UserManagement] (UserID, BillingAddress, CreatedAt, UpdatedAt)
 VALUES 
-('SC001', 'Model X', geography::STGeomFromText('POINT(-122.34900 47.62050)', 4326), 100, 1, 1.00, 0.15, 20.0, 25.0, 0.5, GETDATE(), GETDATE(), GETDATE()),
-('SC002', 'Model Y', geography::STGeomFromText('POINT(-122.34900 47.62050)', 4326), 80, 1, 1.00, 0.15, 18.0, 22.0, 1.2, GETDATE(), GETDATE(), GETDATE()),
-('SC003', 'Model Z', geography::STGeomFromText('POINT(-122.34900 47.62050)', 4326), 90, 1, 1.00, 0.15, 22.0, 24.0, 2.1, GETDATE(), GETDATE(), GETDATE()),
-('SC004', 'Model A', geography::STGeomFromText('POINT(-122.34900 47.62050)', 4326), 85, 1, 1.00, 0.15, 25.0, 26.0, 3.0, GETDATE(), GETDATE(), GETDATE()),
-('SC005', 'Model B', geography::STGeomFromText('POINT(-122.34900 47.62050)', 4326), 95, 1, 1.00, 0.15, 30.0, 28.0, 4.2, GETDATE(), GETDATE(), GETDATE());
+(1, '123 Main St, New York, NY', GETDATE(), GETDATE()),
+(2, '456 Elm St, Los Angeles, CA', GETDATE(), GETDATE()),
+(3, '789 Oak St, San Francisco, CA', GETDATE(), GETDATE()),
+(4, '101 Pine St, Chicago, IL', GETDATE(), GETDATE()),
+(5, '202 Maple St, Phoenix, AZ', GETDATE(), GETDATE());
+--check on UserManagement table
+select * from ScooterDB.dbo.UserManagement;
 
-select * from ScooterDB.dbo.ScooterTracking;
-
--- Enable CLR integration
--- CLR integration is enabled by default in SQL Server, so this command is not necessary.
--- Check if CLR integration is enabled
-EXEC sp_configure 'clr enabled';
-USE master;
-GO
-
--- Enable CLR integration
-sp_configure 'clr enabled', 1;
-GO
-RECONFIGURE;
-GO
-
-USE ScooterDB;
-GO
-
--- Insert dummy data into ScooterTracking table
-INSERT INTO [ScooterDB].[dbo].[ScooterTracking] (ScooterID, Timestamp, CurrentLocation, CreatedAt, UpdatedAt)
-VALUES 
-(1, GETDATE(), geography::STGeomFromText('POINT(-122.34900 47.62050)', 4326), GETDATE(), GETDATE()),
-(2, GETDATE(), geography::STGeomFromText('POINT(-122.34910 47.62060)', 4326), GETDATE(), GETDATE()),
-(3, GETDATE(), geography::STGeomFromText('POINT(-122.34920 47.62070)', 4326), GETDATE(), GETDATE()),
-(4, GETDATE(), geography::STGeomFromText('POINT(-122.34930 47.62080)', 4326), GETDATE(), GETDATE()),
-(5, GETDATE(), geography::STGeomFromText('POINT(-122.34940 47.62090)', 4326), GETDATE(), GETDATE());
-
-INSERT INTO [ScooterDB].[dbo].[Scooters] (
-    [ScooterCode], 
-    [Model], 
-    [CurrentLocation], 
-    [Battery], 
-    [IsAvailable], 
-    [BasePrice], 
-    [PricePerMinute], 
-    [Range], 
-    [MaxSpeed], 
-    [Distance], 
-    [LastMaintenanceDate], 
-    [CreatedAt], 
-    [UpdatedAt]
-) VALUES (
-    'SC12345', 
-    'ModelX', 
-    geography::STGeomFromText('POINT(-122.34900 47.65100)', 4326), 
-    100, 
-    1, 
-    1.00, 
-    0.15, 
-    25.00, 
-    15.00, 
-    100.00, 
-    '2023-01-01 10:00:00', 
-    GETDATE(), 
-    GETDATE()
-);
-
-ALTER TABLE [ScooterDB].[dbo].[Scooters]
-ADD [Latitude] FLOAT, [Longitude] FLOAT;
-
-select * from ScooterDB.dbo.Scooters;
-
-ALTER TABLE [ScooterDB].[dbo].[Scooters]
-drop Column [CurrentLocation];
-
-Select * from ScooterDB.dbo.Scooters;
---insert dummy data into ScooterDB.dbo.Scooters
-INSERT INTO [ScooterDB].[dbo].[Scooters] (ScooterCode, Model, Latitude, Longitude, Battery, IsAvailable, BasePrice, PricePerMinute, Range, MaxSpeed, Distance, LastMaintenanceDate, CreatedAt, UpdatedAt)
--- Verify the columns are added
-SELECT * FROM ScooterDB.dbo.Scooters;
 
 INSERT INTO [ScooterDB].[dbo].[Scooters] 
 (ScooterCode, Model, Latitude, Longitude, Battery, IsAvailable, BasePrice, PricePerMinute, Range, MaxSpeed, Distance, LastMaintenanceDate, CreatedAt, UpdatedAt)

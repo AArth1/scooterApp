@@ -7,3 +7,12 @@
 /workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/predeploy.sql
 /workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/ScooterDB.dll
 /workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/Debug/ScooterDB.pdb
+/workspace/database/ScooterDB/ScooterDB/bin/Debug/ScooterDB.dacpac
+/workspace/database/ScooterDB/ScooterDB/bin/Debug/ScooterDB.dll
+/workspace/database/ScooterDB/ScooterDB/bin/Debug/ScooterDB.pdb
+/workspace/database/ScooterDB/ScooterDB/obj/Debug/Model.xml
+/workspace/database/ScooterDB/ScooterDB/obj/Debug/refactor.xml
+/workspace/database/ScooterDB/ScooterDB/obj/Debug/postdeploy.sql
+/workspace/database/ScooterDB/ScooterDB/obj/Debug/predeploy.sql
+/workspace/database/ScooterDB/ScooterDB/obj/Debug/ScooterDB.dll
+/workspace/database/ScooterDB/ScooterDB/obj/Debug/ScooterDB.pdb

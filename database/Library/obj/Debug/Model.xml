@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="Library.dll" />
-			<Metadata Name="FileName" Value="/workspaces/javascript-node/database/Library/obj/Debug/Library.dll" />
+			<Metadata Name="FileName" Value="/workspace/database/Library/obj/Debug/Library.dll" />
 			<Metadata Name="AssemblyName" Value="Library" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="/workspaces/javascript-node/database/Library/obj/Debug/Library.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="/workspace/database/Library/obj/Debug/Library.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>

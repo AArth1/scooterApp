@@ -368,11 +368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/javascript-node/database/ScooterDB/ScooterDB/ScooterDB.sqlproj",
+      "projectUniqueName": "/workspace/database/ScooterDB/ScooterDB/ScooterDB.sqlproj",
       "projectName": "ScooterDB",
-      "projectPath": "/workspaces/javascript-node/database/ScooterDB/ScooterDB/ScooterDB.sqlproj",
+      "projectPath": "/workspace/database/ScooterDB/ScooterDB/ScooterDB.sqlproj",
       "packagesPath": "/home/node/.nuget/packages/",
-      "outputPath": "/workspaces/javascript-node/database/ScooterDB/ScooterDB/obj/",
+      "outputPath": "/workspace/database/ScooterDB/ScooterDB/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
