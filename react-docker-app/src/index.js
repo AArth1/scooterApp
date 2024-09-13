@@ -6,13 +6,6 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// Initialize Apollo Client
-// const client = new ApolloClient({
-//   uri: 'https://your-graphql-api-endpoint.com/graphql', // Replace with your GraphQL API endpoint
-//   cache: new InMemoryCache()
-// });
-
-// Use createRoot from react-dom/client
 const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -3,8 +3,8 @@ import mapboxgl from 'mapbox-gl';
 import EndRidePopup from './EndRidePopup';
 import './RideProgress.css';
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0YWthbWEiLCJhIjoiY2x5cTR4aXYyMDBzbzJpcG43NXZvNTd5byJ9.nEGo9hPCJwE4SrmFaborZw';
-//add scooter tracking table here. create new tracking 
+mapboxgl.accessToken = '/*REPLACE WITH YOUR MAPBOX ACCESS TOKEN*/';
+
 
 function RideProgress() {
   const [userLocation, setUserLocation] = useState([0, 0]);

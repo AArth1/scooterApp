@@ -1,7 +1,0 @@
-/* do not need it */
-.unlock-ride-button {
-    position: relative; /* or 'absolute' if you need it out of the normal document flow */
-    z-index: 900;
-    /* Add other button styles as needed */
-  }
-  

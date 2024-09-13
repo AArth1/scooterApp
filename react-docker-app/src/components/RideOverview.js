@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import mapboxgl from 'mapbox-gl';
 import './RideOverview.css'; // Import the CSS file for styling
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0YWthbWEiLCJhIjoiY2x5cTR4aXYyMDBzbzJpcG43NXZvNTd5byJ9.nEGo9hPCJwE4SrmFaborZw';
+mapboxgl.accessToken = '/*REPLACE WITH YOUR MAPBOX ACCESS TOKEN*/';
 
 function calculateDistance(startLocation, endLocation){
   const toRadians = (degrees) => degrees * (Math.PI / 180);
